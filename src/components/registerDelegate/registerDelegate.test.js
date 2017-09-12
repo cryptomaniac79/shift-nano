@@ -2,7 +2,7 @@ import React from 'react';
 import { expect } from 'chai';
 import { mount } from 'enzyme';
 import sinon from 'sinon';
-import Lisk from 'lisk-js';
+import Lisk from 'shift-js';
 import { Provider } from 'react-redux';
 import store from '../../store';
 import RegisterDelegate from './registerDelegate';

@@ -1,4 +1,4 @@
-import Lisk from 'lisk-js';
+import Lisk from 'shift-js';
 import actionTypes from '../constants/actions';
 
 /**

@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import { spy } from 'sinon';
-import Lisk from 'lisk-js';
+import Lisk from 'shift-js';
 import actionTypes from '../constants/actions';
 import { activePeerSet, activePeerUpdate } from './peers';
 

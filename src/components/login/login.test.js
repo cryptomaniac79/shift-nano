@@ -3,7 +3,7 @@ import chai, { expect } from 'chai';
 import { spy } from 'sinon';
 import sinonChai from 'sinon-chai';
 import { mount, shallow } from 'enzyme';
-import Lisk from 'lisk-js';
+import Lisk from 'shift-js';
 import Login from './login';
 
 chai.use(sinonChai);

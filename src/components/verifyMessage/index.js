@@ -1,7 +1,7 @@
 import React from 'react';
 import Input from 'react-toolbox/lib/input';
 
-import lisk from 'lisk-js';
+import lisk from 'shift-js';
 import InfoParagraph from '../infoParagraph';
 import SignVerifyResult from '../signVerifyResult';
 
