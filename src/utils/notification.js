@@ -52,8 +52,8 @@ class Notification {
    * @memberof Notify
    */
   _deposit(amount) { // eslint-disable-line
-    const body = `You've received ${fromRawLsk(amount)} LSK.`;
-    new window.Notification('LSK received', { body }); // eslint-disable-line
+    const body = `You've received ${fromRawLsk(amount)} SHIFT.`;
+    new window.Notification('SHIFT received', { body }); // eslint-disable-line
   }
 }
 
