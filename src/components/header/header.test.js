@@ -5,7 +5,7 @@ import { Button } from 'react-toolbox/lib/button';
 import sinon from 'sinon';
 import styles from './header.css';
 import Header from './header';
-import logo from '../../assets/images/LISK-nano.png';
+import logo from '../../assets/images/SHIFT-nano.png';
 
 describe('Header', () => {
   let wrapper;
