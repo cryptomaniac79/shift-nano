@@ -99,7 +99,7 @@ class Send extends React.Component {
           error={this.state.secondPassphrase.error}
           value={this.state.secondPassphrase.value}
           onChange={this.handleChange.bind(this, 'secondPassphrase')} />
-        <div className={styles.fee}> Fee: {this.fee} LSK</div>
+        <div className={styles.fee}> Fee: {this.fee} SHIFT</div>
         <IconMenu icon='more_vert' position='topRight' menuRipple className={`${styles.sendAllMenu} transaction-amount`} >
           <MenuItem onClick={this.setMaxAmount.bind(this)}
             caption='Set maximum amount'
