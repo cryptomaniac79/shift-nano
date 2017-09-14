@@ -21,7 +21,7 @@
     "storybook": "start-storybook -p 6006 -s ./src/",
     "build-storybook": "build-storybook"
   },
-  "author": "Lisk Foundation <admin@lisk.io>, lightcurve GmbH <admin@lightcurve.io>",
+  "author": "Shift <info@shiftnrg.org>, Lisk Foundation <admin@lisk.io>, lightcurve GmbH <admin@lightcurve.io>",
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
