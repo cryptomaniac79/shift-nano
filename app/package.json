@@ -1,7 +1,7 @@
 {
-  "name": "lisk-nano",
+  "name": "shift-nano",
   "version": "1.0.0-rc.5",
-  "description": "Lisk Nano",
+  "description": "Shift Nano",
   "main": "main.js",
   "author":{
     "name": "Lisk Foundation",
