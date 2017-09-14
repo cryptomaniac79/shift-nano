@@ -6,7 +6,7 @@ const { BrowserWindow } = electron;
 const { Menu } = electron;
 
 let win;
-const copyright = `Copyright © 2016 - ${new Date().getFullYear()} Lisk Foundation`;
+const copyright = `Copyright © 2016 - ${new Date().getFullYear()} Lisk Foundation / Shift`;
 
 function createWindow() {
   const { width, height } = electron.screen.getPrimaryDisplay().workAreaSize;
