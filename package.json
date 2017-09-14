@@ -1,9 +1,9 @@
 {
-  "name": "lisk-nano",
+  "name": "shift-nano",
   "version": "1.0.0-rc.5",
-  "description": "Lisk Nano",
-  "homepage": "https://github.com/LiskHQ/lisk-nano",
-  "bugs": "https://github.com/LiskHQ/lisk-nano/issues",
+  "description": "Shift Nano",
+  "homepage": "https://github.com/shiftNrg/shift-nano",
+  "bugs": "https://github.com/shiftNrg/shift-nano/issues",
   "main": "main.js",
   "scripts": {
     "build": "npm run clean && npm run copy-files && webpack --env.prod",
@@ -25,7 +25,7 @@
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LiskHQ/lisk-nano"
+    "url": "https://github.com/shiftNrg/shift-nano"
   },
   "dependencies": {
     "bignumber.js": "=4.0.0",
@@ -119,9 +119,9 @@
     "webpack-dev-server": "=2.4.2"
   },
   "build": {
-    "appId": "io.lisk.nano",
-    "productName": "Lisk Nano",
-    "artifactName": "lisk-nano-${os}-${arch}-${version}.${ext}",
+    "appId": "io.shift.nano",
+    "productName": "Shift Nano",
+    "artifactName": "shift-nano-${os}-${arch}-${version}.${ext}",
     "linux": {
       "target": [
         "AppImage",
