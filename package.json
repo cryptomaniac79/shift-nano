@@ -1,6 +1,6 @@
 {
   "name": "shift-nano",
-  "version": "1.0.0-rc.5",
+  "version": "1.1.0",
   "description": "Shift Nano",
   "homepage": "https://github.com/shiftNrg/shift-nano",
   "bugs": "https://github.com/shiftNrg/shift-nano/issues",
@@ -33,6 +33,7 @@
     "copy-to-clipboard": "=3.0.6",
     "flexboxgrid": "=6.3.1",
     "moment": "=2.15.1",
+    "numeral": "=2.0.6",
     "postcss": "=6.0.2",
     "postcss-cssnext": "=2.11.0",
     "prop-types": "=15.5.10",
