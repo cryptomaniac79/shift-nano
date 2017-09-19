@@ -19,14 +19,14 @@ describe('SignMessage', () => {
     passphrase: 'wagon stock borrow episode laundry kitten salute link globe zero feed marble',
     publicKey,
   };
-  const result = `-----BEGIN LISK SIGNED MESSAGE-----
+  const result = `-----BEGIN SHIFT SIGNED MESSAGE-----
 -----MESSAGE-----
 ${message}
 -----PUBLIC KEY-----
 ${publicKey}
 -----SIGNATURE-----
 ${signature}
------END LISK SIGNED MESSAGE-----`;
+-----END SHIFT SIGNED MESSAGE-----`;
 
   beforeEach(() => {
     successToastSpy = sinon.spy();
