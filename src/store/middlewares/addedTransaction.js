@@ -21,7 +21,7 @@ const addedTransactionMiddleware = store => next => (action) => {
         break;
       default:
         // send: undefined
-        text = `Your transaction of ${fromRawLsk(action.data.amount)} LSK to ${action.data.recipientId} was accepted and will be processed in a few seconds.`;
+        text = `Your transaction of ${fromRawLsk(action.data.amount)} SHIFT to ${action.data.recipientId} was accepted and will be processed in a few seconds.`;
         break;
     }
 

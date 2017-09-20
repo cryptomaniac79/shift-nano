@@ -40,7 +40,7 @@ describe('addedTransaction middleware', () => {
     };
 
     const expectedMessages = [
-      'Your transaction of 1 LSK to 16313739661670634666L was accepted and will be processed in a few seconds.',
+      'Your transaction of 1 SHIFT to 16313739661670634666L was accepted and will be processed in a few seconds.',
       'Second passphrase registration was successfully submitted. It can take several seconds before it is processed.',
       'Delegate registration was successfully submitted with username: "test". It can take several seconds before it is processed.',
       'Your votes were successfully submitted. It can take several seconds before they are processed.',
