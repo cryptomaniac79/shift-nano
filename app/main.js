@@ -6,7 +6,7 @@ const { BrowserWindow } = electron;
 const { Menu } = electron;
 
 let win;
-const copyright = `Copyright © 2016 - ${new Date().getFullYear()} Lisk Foundation`;
+const copyright = `Copyright © 2016 - ${new Date().getFullYear()} Lisk Foundation / Shift`;
 
 function createWindow() {
   const { width, height } = electron.screen.getPrimaryDisplay().workAreaSize;
@@ -74,42 +74,42 @@ function createWindow() {
       label: 'Help',
       submenu: [
         {
-          label: 'Lisk Website',
+          label: 'Shift Website',
           click() {
-            electron.shell.openExternal('https://lisk.io');
+            electron.shell.openExternal('https://shiftnrg.org');
           },
         },
         {
-          label: 'Lisk Chat',
+          label: 'Shift Chat',
           click() {
-            electron.shell.openExternal('https://lisk.chat');
+            electron.shell.openExternal('https://shiftnrg.ryver.com/index.html');
           },
         },
         {
-          label: 'Lisk Explorer',
+          label: 'Shift Explorer',
           click() {
-            electron.shell.openExternal('https://explorer.lisk.io');
+            electron.shell.openExternal('https://explorer.shiftnrg.org');
           },
         },
-        {
+        /*{
           label: 'Lisk Forum',
           click() {
             electron.shell.openExternal('https://forum.lisk.io');
           },
-        },
+        },*/
         {
           type: 'separator',
         },
-        {
+        /*{
           label: 'Report Issue...',
           click() {
-            electron.shell.openExternal('https://github.com/LiskHQ/lisk-nano/issues/new');
+            electron.shell.openExternal('https://lisk.zendesk.com/hc/en-us/requests/new');
           },
-        },
+        },*/
         {
           label: 'What\'s New...',
           click() {
-            electron.shell.openExternal('https://github.com/LiskHQ/lisk-nano/releases');
+            electron.shell.openExternal('https://github.com/shiftNrg/shift-nano/releases');
           },
         },
       ],
@@ -139,8 +139,8 @@ function createWindow() {
         if (focusedWindow) {
           const options = {
             buttons: ['OK'],
-            icon: `${__dirname}/assets/lisk.png`,
-            message: `Lisk Nano\nVersion ${app.getVersion()}\n${copyright}`,
+            icon: `${__dirname}/assets/shift.png`,
+            message: `Shift Nano\nVersion ${app.getVersion()}\n${copyright}`,
           };
           electron.dialog.showMessageBox(focusedWindow, options, () => {});
         }
@@ -153,7 +153,7 @@ function createWindow() {
 
   win.loadURL(`file://${__dirname}/dist/index.html`);
 
-  win.on('closed', () => win = null);
+  win.on('closed', () => { win = null; });
 
   const selectionMenu = Menu.buildFromTemplate([
     { role: 'copy' },
@@ -193,7 +193,7 @@ app.on('window-all-closed', () => {
 // This will override the values defined in the app’s .plist file (macOS)
 if (process.platform === 'darwin') {
   app.setAboutPanelOptions({
-    applicationName: 'Lisk Nano',
+    applicationName: 'Shift Nano',
     copyright,
   });
 }
