@@ -21,7 +21,7 @@ class Send extends React.Component {
         value: null,
       },
     };
-    this.fee = 0.1;
+    this.fee = 0.01;
     this.inputValidationRegexps = {
       recipient: /^\d{1,21}[S|s]$/,
       amount: /^\d+(\.\d{1,8})?$/,
