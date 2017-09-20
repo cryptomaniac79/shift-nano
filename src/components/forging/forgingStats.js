@@ -45,7 +45,7 @@ class ForgingStats extends React.Component {
                   <span>
                     <LiskAmount val={this.props.statistics[cardObj.key]}
                       roundTo={2}
-                      /> SHIFT
+                      />
                   </span>
                 </div>
               </div>
