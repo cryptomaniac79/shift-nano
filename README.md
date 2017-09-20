@@ -1,14 +1,12 @@
-# Lisk Nano
+# Shift Nano
 
-[![Build Status](https://jenkins.lisk.io/buildStatus/icon?job=lisk-nano/development)](https://jenkins.lisk.io/job/lisk-nano/job/development)
-[![Coverage Status](https://coveralls.io/repos/github/LiskHQ/lisk-nano/badge.svg?branch=development)](https://coveralls.io/github/LiskHQ/lisk-nano?branch=development)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 
 ## Development
 
 ```
-git clone https://github.com/LiskHQ/lisk-nano.git
-cd lisk-nano
+git clone https://github.com/shiftNrg/shift-nano.git
+cd shift-nano
 npm install
 npm run dev
 ```
@@ -93,7 +91,7 @@ And run it with [pm2](http://pm2.keymetrics.io/).
 
 ### Run
 
-Start the development version of lisk-nano:
+Start the development version of shift-nano:
 
 ```
 npm run dev
@@ -129,7 +127,7 @@ http://localhost:6006/
 
 ## License
 
-Copyright © 2016-2017 Lisk Foundation
+Copyright © 2016-2017 Lisk Foundation / Shift
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
