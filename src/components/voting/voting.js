@@ -171,7 +171,7 @@ class Voting extends React.Component {
               <TableCell>Vote</TableCell>
               <TableCell>Rank</TableCell>
               <TableCell>Name</TableCell>
-              <TableCell>Lisk Address</TableCell>
+              <TableCell>Shift Address</TableCell>
               <TableCell>Uptime</TableCell>
               <TableCell>Approval</TableCell>
             </TableHead>
