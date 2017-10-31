@@ -54,7 +54,7 @@ const Account = ({
             </div>
             <div className={`${grid['col-sm-12']} ${grid['col-xs-8']}`}>
               <ClickToSend
-                rawAmount={Math.max(0, account.balance - toRawLsk(0.1))} >
+                rawAmount={Math.max(0, account.balance - toRawLsk(0.01))} >
                 <div className={styles['value-wrapper']}>
                   <p className="inner primary full hasTip balance-value">
                     <LiskAmount val={account.balance} /> SHIFT
