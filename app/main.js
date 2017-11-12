@@ -74,21 +74,21 @@ function createWindow() {
       label: 'Help',
       submenu: [
         {
-          label: 'Shift Website',
+          label: 'Oxy Website',
           click() {
-            electron.shell.openExternal('https://shiftnrg.org');
+            electron.shell.openExternal('https://oxycoin.io');
           },
         },
         {
-          label: 'Shift Chat',
+          label: 'Oxy Slack',
           click() {
-            electron.shell.openExternal('https://shiftnrg.ryver.com/index.html');
+            electron.shell.openExternal('https://oxycoin.slack.com/');
           },
         },
         {
-          label: 'Shift Explorer',
+          label: 'Oxy Explorer',
           click() {
-            electron.shell.openExternal('https://explorer.shiftnrg.org');
+            electron.shell.openExternal('https://explorer.oxycoin.io');
           },
         },
         /*{
@@ -109,7 +109,7 @@ function createWindow() {
         {
           label: 'What\'s New...',
           click() {
-            electron.shell.openExternal('https://github.com/shiftNrg/shift-nano/releases');
+            electron.shell.openExternal('https://github.com/jamiec79/shift-nano');
           },
         },
       ],
@@ -140,7 +140,7 @@ function createWindow() {
           const options = {
             buttons: ['OK'],
             icon: `${__dirname}/assets/shift.png`,
-            message: `Shift Nano\nVersion ${app.getVersion()}\n${copyright}`,
+            message: `Oxy Nano\nVersion ${app.getVersion()}\n${copyright}`,
           };
           electron.dialog.showMessageBox(focusedWindow, options, () => {});
         }
@@ -193,7 +193,7 @@ app.on('window-all-closed', () => {
 // This will override the values defined in the app’s .plist file (macOS)
 if (process.platform === 'darwin') {
   app.setAboutPanelOptions({
-    applicationName: 'Shift Nano',
+    applicationName: 'Oxy Nano',
     copyright,
   });
 }
