@@ -69,16 +69,16 @@ describe('actions: peers', () => {
       Lisk.api.restore();
     });
 
-    it('should set to testnet if not defined in config but port is 9405', () => {
-      const network9405 = {
-        address: 'http://127.0.0.1:9405',
-        nethash: '198f2b61a8eb95fbeed58b8216780b68f697f26b849acf00c8c93bb9b24f783d',
+    it('should set to testnet if not defined in config but port is 9998', () => {
+      const network9998 = {
+        address: 'http://127.0.0.1:9998',
+        nethash: '0daee950841005a3f56f6588b4b084695f0d74aaa38b21edab73446064638552',
       };
       const network4000 = {
         address: 'http://127.0.0.1:4000',
         nethash: '198f2b61a8eb95fbeed58b8216780b68f697f26b849acf00c8c93bb9b24f783d',
       };
-      let actionObj = activePeerSet({ passphrase, network: network9405 });
+      let actionObj = activePeerSet({ passphrase, network: network9998 });
       expect(actionObj.data.activePeer.testnet).to.be.equal(true);
       actionObj = activePeerSet({ passphrase, network: network4000 });
       expect(actionObj.data.activePeer.testnet).to.be.equal(false);
