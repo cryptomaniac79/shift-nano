@@ -27,7 +27,7 @@ export const activePeerSet = (data) => {
       config.ssl = normalizedUrl.protocol === 'https';
     }
     if (config.testnet === undefined && config.port !== undefined) {
-      config.testnet = config.port === '9405';
+      config.testnet = config.port === '9998';
     }
   }
 
