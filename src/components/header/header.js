@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from 'react-toolbox/lib/button';
 import { IconMenu, MenuItem } from 'react-toolbox/lib/menu';
 import grid from 'flexboxgrid/dist/flexboxgrid.css';
-import logo from '../../assets/images/SHIFT-nano.png';
+import logo from '../../assets/images/OXY_LOGO.png';
 import styles from './header.css';
 import VerifyMessage from '../verifyMessage';
 import SignMessage from '../signMessage';
